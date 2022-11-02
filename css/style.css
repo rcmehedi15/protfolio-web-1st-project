@@ -1,0 +1,167 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #00101f;
+    color: #e2e8f0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: 700;
+    font-size: 20px;
+}
+span,h2{
+    color: #b64545;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a {
+    text-transform: uppercase;
+   
+}
+.line{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 34px;
+
+}
+p{
+    font-size: 17px;
+    color: #6c757d;
+    text-align: justify;
+}
+button{
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #b64545;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;margin-top: 10px;
+}
+button:hover{
+    background-color: #b64545;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.img-top{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+img{
+    height: auto;
+    max-width: 95%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+
+}
+img:hover{
+    filter: brightness(80%);
+}
+h2{
+    font-size: 40px;
+
+}
+.pp{
+    margin-left: 10px;
+}
+h3{
+    color: #c51d1d;
+}
+input,textarea{
+    padding: 15px;
+    width: 260px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+
+}
+input:focus,textarea:focus{
+   outline: none;
+}
+.map{
+  margin-top: 50%;
+
+}
+footer{
+    background-color: #2b2b2b;
+    margin: 0;
+   
+}
+footer p{
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+    .half-width{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+
+/* Back to top */
+.back-to-top{
+    position: fixed;
+    bottom: 25px;
+    right: 40px;
+    z-index: 999 ;
+    display: none;
+}
+.back-to-top i{
+    width: 40px;
+    height: 40px;
+    background-color: #b64545;;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+
+}
